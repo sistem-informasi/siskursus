@@ -83,7 +83,7 @@
                 <div class="title m-b-md">
                     SISKursus
                 </div>
-                Sistem Informasi Manajemen Kursus dan Lembaga Pendidikan
+
                 <div class="links">
                     <a href="https://github.com/sistem-informasi/siskursus">Github</a>
                 </div>
