@@ -1,10 +1,9 @@
 <?php
 
-namespace App;
+namespace App\Data;
 
 use Illuminate\Database\Eloquent\Model;
 
-class lecturer extends Model
+class Contact extends Model
 {
-    //
 }

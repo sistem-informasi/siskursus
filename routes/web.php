@@ -1,4 +1,6 @@
 <?php
+use App\Http\Controllers\Hello;
+use App\Http\Controllers\Admin\Contacts;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +21,12 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('home');
 });
+
+
+Route::get('/hello/kaka/{nama}', 'Hello@index');
+
+// Default Laravel Resource
+Route::resource('/admin/contact', 'Admin\Contacts');
+
+// Overwrite resource REST method to modify request then calling REST method
+// Route::post('/example', 'ExampleController@modifyRequest');

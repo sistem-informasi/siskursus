@@ -1,10 +1,10 @@
 <?php
 
-namespace App;
+namespace App\Data;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Subject extends Model
+class Role extends Model
 {
     //
 }

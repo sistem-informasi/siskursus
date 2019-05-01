@@ -162,6 +162,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        // CRUD
+        LaraCrud\LaraCrudServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
